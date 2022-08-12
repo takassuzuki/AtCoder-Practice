@@ -40,3 +40,36 @@ rangeを使ったlistの作成
 """
 li = list(range(10, 35, 3))
 print(li)
+
+
+""" 
+リストの内包表記
+"""
+a = [1,2,3,4,5]
+a_db = [x*2 for x in a]
+print(a_db)
+
+
+""" 
+条件式を含むリストの内包表記
+"""
+a = [1,5,10,15,20]
+a_chk = [x*2 for x in a if x >= 10]
+print(a_chk)
+
+
+""" 
+辞書の内包表記
+"""
+from random import randint
+keys = ['いちご', 9, 'みかん', 25, 'りんご']
+d = {x:randint(1,100) for x in keys if type(x) == str}
+print(d)
+
+
+""" 
+集合の内包表記
+"""
+a = {1,4,5,-1,9,-2,10,9,15,4,-5}
+setA = {x for x in a if (0 < x <= 10)}
+print(setA)
