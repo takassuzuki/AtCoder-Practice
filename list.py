@@ -121,3 +121,9 @@ print('元のリストはそのまま残る：',list_x)
 list_y=[48,3,100,49,22,64,0]
 print(sorted(list_y, reverse=True))
 print('元のリストはそのまま残る：',list_y)
+
+# リストのコピー
+list_z = [1,2,3,4,5]
+list_aa = list_z.copy()
+print(list_z)
+print(list_aa)
