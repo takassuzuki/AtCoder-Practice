@@ -73,3 +73,5 @@ print(d)
 a = {1,4,5,-1,9,-2,10,9,15,4,-5}
 setA = {x for x in a if (0 < x <= 10)}
 print(setA)
+
+
