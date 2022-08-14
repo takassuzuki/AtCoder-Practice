@@ -106,8 +106,8 @@ print('{1}は{0}位です'.format(a, b))
 # f文字列
 print(f'{a}は{b}位です。')
 # 書式（型）の指定
-a=3
-print('{:d}'.format(a))
+a=65
+print('{:02d}'.format(a))
 # 3桁ごとにカンマを入れる
 a=123456789
 print('{:,}'.format(a))
