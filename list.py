@@ -2,8 +2,6 @@
 リスト
 """
 # リストの宣言・初期化
-from os import remove
-
 
 list_a=[]
 print(list_a)
